@@ -25,6 +25,12 @@ sudo apt install npm
 npm config set registry http://mirrors.cloud.tencent.com/npm/
 ```
 
+## Install Plugins
+```
+vim +PlugInstall
+```
+
+
 ## Install Coc-pyright
 coc-pyright 是 python 的语言服务器
 ```
@@ -41,7 +47,10 @@ go env -w GOPROXY=https://goproxy.cn,direct
 :GoInstallBinaries
 ```
 
-## Install Plugins
+## Install ag, rg, fd, fzf
 ```
-vim +PlugInstall
+apt-get install silversearcher-ag
+apt-get install ripgrep
+apt install fd-find
+apt-get install fzf
 ```
