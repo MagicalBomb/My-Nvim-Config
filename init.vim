@@ -3,50 +3,50 @@
 "*****************************************************************************
 "" Vim-Plug core
 "*****************************************************************************
-source /Users/maoxiandaozhenhaowan/.config/nvim/vim-plugin.vim
+source ~/.config/nvim/vim-plugin.vim
 
 
 "****************************************************************************
 "" Plug install
 "****************************************************************************
-source /Users/maoxiandaozhenhaowan/.config/nvim/plugins.vim
+source ~/.config/nvim/plugins.vim
 
 
 "*****************************************************************************
 "" Basic Setup
 "*****************************************************************************"
-source /Users/maoxiandaozhenhaowan/.config/nvim/basic-settings.vim
+source ~/.config/nvim/basic-settings.vim
 
 
 "*****************************************************************************
 "" Functions
 "*****************************************************************************
-source /Users/maoxiandaozhenhaowan/.config/nvim/functions.vim
+source ~/.config/nvim/functions.vim
 
 
 "*****************************************************************************
 "" Commands
 "*****************************************************************************
-source /Users/maoxiandaozhenhaowan/.config/nvim/commands.vim
+source ~/.config/nvim/commands.vim
 
 
 
 "*****************************************************************************
 "" Autocmd Rules
 "*****************************************************************************
-source /Users/maoxiandaozhenhaowan/.config/nvim/autocmd.vim
+source ~/.config/nvim/autocmd.vim
 
 
 "*****************************************************************************
 "" Abbreviations
 "*****************************************************************************
-source /Users/maoxiandaozhenhaowan/.config/nvim/abbrev.vim
+source ~/.config/nvim/abbrev.vim
 
 
 "*****************************************************************************
 "" Mappings
 "*****************************************************************************
-source /Users/maoxiandaozhenhaowan/.config/nvim/key-mappings.vim
+source ~/.config/nvim/key-mappings.vim
 
 
 "*****************************************************************************
