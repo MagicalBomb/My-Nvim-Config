@@ -1,0 +1,21 @@
+{
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    } 
+  },
+  //  Show all diagnostics of the current line if none of them are at the current position, default: `false`
+  "diagnostic.checkCurrentLine": true,
+  "pyright.enable": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+      "--ignore",
+      "E501" // Ignore line too long
+  ]
+  // Nvim 会自动检测当前可用的 python 版本
+  // 如果要使用 Venv, 需要在进入 Nvim 前激活虚拟环境
+  // "python.pythonPath": "/Users/maoxiandaozhenhaowan/.config/nvim/plugged/coc.nvim/use_conda",
+  // "python.venvPath": "./.venv"
+}
