@@ -31,8 +31,6 @@ vnoremap K :m '<-2<CR>gv=gv
 " Copy/Paste to system clipboard
 "nnoremap yy "*y<CR>
 "nnoremap Y "*y<CR>
-"nnoremap p "*p 
-"nnoremap P "*P 
 "vnoremap y "*y
 "vnoremap Y "*Y
 
