@@ -4,19 +4,32 @@ call plug#begin(expand('~/.config/nvim/plugged'))
 " directory
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
+" 注释代码
+" 使用 gcc 对选中的行进行注释或反注释
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-fugitive'
+" Vim Git 管理插件 
+" Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" 在 Vim 的侧边显示 git diff，用于表示哪些行发生了更改
 Plug 'airblade/vim-gitgutter'
-Plug 'vim-scripts/grep.vim'
+" 在 Vim 中提供 Grep 命令
+" Plug 'vim-scripts/grep.vim'
+" 使 vim 的内置的一些色彩主题能够在通用的 terminal 下使用
 Plug 'vim-scripts/CSApprox'
+" 自动补全分隔符成一对, 如: ", ', [, { 等
 Plug 'Raimondi/delimitMate'
+" 用于提炼文件中的变量， 类，函数等 tag 生成目录方便跳转
+" 需要安装 ctags 工具
 Plug 'majutsushi/tagbar'
+" 通过单个按键快速调至文本任意位置 
+Plug 'easymotion/vim-easymotion'
 "Plug 'dense-analysis/ale'
+" 用一个条垂直的线显示缩进
 Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstrap/vim-bootstrap-updater'
-Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
+" 用于在 vim 中浏览 github
+" Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'tomasiser/vim-code-dark'
 
 " fzf 是一款命令行模糊搜索器

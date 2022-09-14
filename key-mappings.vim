@@ -17,8 +17,14 @@ nnoremap <leader>h gT
 nnoremap <silent> <S-t> :tabnew<CR>
 
 "" 侧边导航栏
-nnoremap <silent> <F2> :NERDTreeFind<CR>
+" nnoremap <silent> <F2> :NERDTreeFind<CR>
 nnoremap <silent> <F1> :NERDTreeToggle<CR>
+
+"" tagbar
+nnoremap <F2> :TagbarToggle<CR> 
+
+"" easymotion
+nmap f <Plug>(easymotion-s)
 
 "" 文本操作 
 " Visual 模式下对选中的内容进行缩进和取消缩进
